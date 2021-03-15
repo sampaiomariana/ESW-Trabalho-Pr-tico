@@ -7,7 +7,12 @@ Trabalho Prático desenvolvido para a  disciplina de Engenharia de Software da U
 |--|--|
 | Mariana Borges de Sampaio|  180046926 |
 
-## Descrição de quais ferramentas foram utilizadas em cada área
+## Descrição do Projeto 
+
+O projeto consiste na construção de artefatos que são construídos no processo de desenvolvimento de software. Esse processo será embasado no processo que é feito no OpenUP. 
+O sistema de software desenvolvido tem como objetivo realizar o aluguell de imóveis. Para esse sistema serão desenvolvidos: wireframe, prototype e mockup.
+
+## Ferramentas utilizadas 
 
 ### Documentação 
 
