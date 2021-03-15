@@ -10,7 +10,7 @@ Trabalho Prático desenvolvido para a  disciplina de Engenharia de Software da U
 ## Descrição do Projeto 
 
 O projeto consiste na construção de artefatos que são construídos no processo de desenvolvimento de software. Esse processo será embasado no processo que é feito no OpenUP. 
-O sistema de software desenvolvido tem como objetivo realizar o aluguell de imóveis. Para esse sistema serão desenvolvidos: wireframe, prototype e mockup.
+O sistema de software desenvolvido tem como objetivo realizar o aluguel de imóveis. Para esse sistema serão desenvolvidos: wireframe, prototype e mockup.
 
 ## Ferramentas utilizadas 
 
