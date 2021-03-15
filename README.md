@@ -28,6 +28,6 @@ Trabalho Prático desenvolvido para a  disciplina de Engenharia de Software da U
 
 ### Wireframes 
 
-### Prótotipo 
+### Protótipo 
 
 ### Mockups 
