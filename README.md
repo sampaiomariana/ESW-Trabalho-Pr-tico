@@ -11,20 +11,20 @@ Trabalho Prático desenvolvido para a  disciplina de Engenharia de Software da U
 
 ### Documentação 
 
-OpenUp
+- OpenUp
 
 ### Banco de Dados 
 
-DB Browser SQLite 
+- DB Browser SQLite 
 
 ### Linguagem de Programação
 
-SQLite 
-HTML 
+- SQLite 
+- HTML 
 
 ### Modelo de caso de uso 
 
-Astah 
+- Astah 
 
 ### Wireframes 
 
