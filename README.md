@@ -32,7 +32,7 @@ O sistema de software desenvolvido tem como objetivo realizar o aluguel de imóv
 - Astah 
 
 ### Wireframes 
-- Figma
+- Adobe XD
 ### Protótipo 
 - Figma
 ### Mockups 
