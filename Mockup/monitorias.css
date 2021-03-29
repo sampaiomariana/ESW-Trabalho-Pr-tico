@@ -1,0 +1,17 @@
+.monitoria {
+    margin-top: 120px;
+}
+
+.monitoria-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.monitoria-header > a  > button{
+    padding: 10px;
+}
+
+.btn-edit {
+    padding: 5px
+}
