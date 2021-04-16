@@ -21,11 +21,14 @@ O sistema de software desenvolvido tem como objetivo realizar o aluguel de imóv
 ### Banco de Dados 
 
 - DB Browser SQLite 
+- MySQL Workbench
 
 ### Linguagem de Programação
 
 - SQLite 
+- SQL
 - HTML 
+- CSS
 
 ### Modelo de caso de uso 
 
