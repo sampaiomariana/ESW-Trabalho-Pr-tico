@@ -6,6 +6,27 @@
 
 }
 
+.clear {
+	clear: both;
+}
+.container {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto; 
+
+}
 html,body{
 	height: 100%
 }
+
+/**header do site**/
+header .logo img{
+	float : left;
+	width: 50px;
+}
+
+header nav{
+	float: right;
+}
+
+/**header do site**/
