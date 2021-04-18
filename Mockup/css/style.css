@@ -29,4 +29,19 @@ header nav{
 	float: right;
 }
 
+header nav ul{
+	list-style-type: none;
+}
+
+header nav ul li{
+	float: left;
+	font-size: 16px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+header ul a{
+	text-decoration: none;
+}
 /**header do site**/
+
