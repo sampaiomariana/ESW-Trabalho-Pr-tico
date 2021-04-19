@@ -37,6 +37,6 @@ O sistema de software desenvolvido tem como objetivo realizar o aluguel de imóv
 ### Wireframes 
 - Adobe XD
 ### Protótipo 
-- Figma
+- Sublime text
 ### Mockups 
-- Figma
+- Sublime text
