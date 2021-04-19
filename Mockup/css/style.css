@@ -13,35 +13,144 @@
 	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto; 
-
+	
 }
 html,body{
 	height: 100%
 }
 
 /**header do site**/
+header {
+	background-color: #D6D6D6;
+	padding: 10px 0;
+}
+header {
+	padding: 20px 8%;
+}
+
 header .logo img{
 	float : left;
-	width: 50px;
+	width: 30px;
 }
 
-header nav{
+header nav.menu-desktop{
 	float: right;
 }
-
-header nav ul{
+header nav.menu-desktop ul{
 	list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
 	float: left;
 	font-size: 16px;
 	padding: 0 20px;
 	text-transform: uppercase;
 }
 
-header ul a{
-	text-decoration: none;
+nav .menu-mobile{
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/mobile.jpg');
+	background-size: 100% 100%;
+	display: none;
+	cursor: pointer;
+
 }
+
+nav.menu-mobile ul{
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background-color: white;
+
+}
+
+nav.menu-mobile ul li{
+	padding: 10px 0;
+
+}
+
+header ul a{
+	color: #000000;
+	text-decoration: none;
+
+}
+
 /**header do site**/
 
+section.cover-form{
+	width: 100%;
+	padding: 1px 0%;
+
+}
+
+.container-bg{
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../images/bg-form.jpg');
+}
+
+.center{
+	width: 1100px;
+	margin: 0 auto;
+	
+}
+.container-list{
+	padding: 30px;
+	margin-top: 80px;
+	float:left;
+	width: 619px;
+	height: 270px;
+	background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+
+}
+
+.container-list ul li{
+	margin-top: 18px;
+	color: white;
+
+}
+
+section.servicos .servico-alugar{
+	float: left;
+	width: 50.0%;
+}
+
+.servico-alugar{
+	padding: 20px;
+}
+
+.servico-alugar h2{
+	font-size: 22px;
+	color: #737373;
+}
+
+section.servicos h2{
+	color: #698293;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.servicos{
+	padding: 100px;
+	
+
+}
+section.servicos >.container{
+	padding: 100px 0;
+}
+.servico-alugar p{
+	padding: 20px 0;
+	font-size: 16px;
+	color: #000000;
+
+}
