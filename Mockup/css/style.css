@@ -173,6 +173,9 @@ section.login form{
 	max-width: 500px;
 }
 
+section.login{
+	min-height: 80%;
+}
 .form-login span{
 	font-size: 16px;
 	color: #212626;
@@ -272,7 +275,6 @@ section.copyright h4{
 	color: white;
 	text-align: center;
 	background-color: #101626;
-
 }
 
 section.sobre {
@@ -291,5 +293,99 @@ section.sobre .sobre-nos{
 	display: flex;
 	width: 100%;
 	height: 100%;
+}
 
+section.imoveis{
+	padding: 90px 0;
+	min-height: 80%;
+}
+
+section.imoveis h2{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.sidebar{
+	float:left;
+	width: 30%;
+}
+
+.content-imoveis{
+	margin-top: 40px;
+	padding-left: 40px;
+}
+
+.search1{
+	width: 300px;
+}
+
+.search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+
+}
+
+.search1 .barra-preco{
+
+	width: 100%;
+	height: 20px;
+	background:white;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.barra-preco-fill{
+	position: relative;
+	left: 0;
+	top:0;
+	width: 30%;
+	height: 20px;
+	border-radius: 20px;
+	background:#254159;
+}
+
+.pointer-barra{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 8px;
+	left: 0;
+	cursor: pointer;
+	top:-1px;
+	background:rgb(210,210,210);
+	border: 1px solid black;
+}
+
+.valor{
+	margin-top: 8px;
+
+}
+
+.valor p{
+	color: black;
+	font-size: 14px;
+
+}
+.valor p:nth-of-type(1){
+	float: left;
+}
+
+.valor p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	width: 300px;
+}
+.search2{
+	margin-top: 10px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
 }
