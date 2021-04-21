@@ -142,9 +142,11 @@ section.servicos h2{
 
 section.servicos{
 	padding: 100px;
+	background-color:#A9BAC8;
 }
 section.servicos >.container{
 	padding: 100px 0;
+
 }
 .servico-alugar p{
 	padding: 20px 0;
