@@ -131,11 +131,11 @@ section.servicos .servico-alugar{
 
 .servico-alugar h2{
 	font-size: 22px;
-	color: #737373;
+	color: #254159;
 }
 
 section.servicos h2{
-	color: #698293;
+	color: #254159;
 	text-align: center;
 	font-size: 18px;
 }
@@ -153,4 +153,108 @@ section.servicos >.container{
 	font-size: 16px;
 	color: #000000;
 
+}
+
+section.login{
+	padding: 60px 2%;
+}
+
+section.login  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.login form{
+	width: 100%;
+	margin: 30px auto;
+	max-width: 500px;
+}
+
+.form-login span{
+	font-size: 16px;
+	color: #212626;
+}
+
+
+.form-login {
+	float: left;
+	margin-top: 10px;
+	padding: 0 10px;
+
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50 {
+	width: 100%
+}
+.form-wraper {
+	float: left;
+	margin-top: 10px;
+	padding:0 10px;
+	
+}
+
+.form-login input[type= text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35;
+	padding-left: 9px;
+	border: 1px solid #212626;
+	margin-top: 8px;	
+}
+
+.form-wraper input[type= text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35;
+	padding-left: 9px;
+	border: 1px solid #212626;
+	margin-top: 8px;
+
+}
+
+.form-wraper input[type = submit]{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	background:#688293;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+footer .container{
+	max-width: 1100px;
+}
+
+footer{
+	padding:40px 2%;
+	background-color: #658DA6;
+}
+
+footer .footer-block{
+	float:left;
+	width: 33.33%;	
+}
+
+.footer-block h2{
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.footer-block p{
+	color: white;
+	margin-top: 8px;
+	font-size: 14px;
+
+}
+
+.footer-block input{
+	color: #000000;
 }
