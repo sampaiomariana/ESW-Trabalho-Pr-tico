@@ -497,3 +497,26 @@ section.casa-detalhes h1{
 	padding-top: 100%;
 	background:red;
 }
+
+
+section.cadastro-sucesso{
+	background:rgb(230,230,230);
+	padding: 60px 2%;
+}
+
+section.cadastro-sucesso  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.cadastro-sucesso  p{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+section.cadastro-sucesso{
+	min-height: 30%;
+}
