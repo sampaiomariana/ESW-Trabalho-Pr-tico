@@ -167,6 +167,21 @@ section.login  h2{
 
 }
 
+section.login-menu{
+	background:rgb(230,230,230);
+	padding: 60px 2%;
+}
+
+section.login-menu  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+
+
+
 section.login form{
 	width: 100%;
 	margin: 30px auto;
@@ -443,3 +458,42 @@ section.imoveis h2{
 
 }
 
+section.casa-detalhes .conteiner{
+	padding: 40px 0;
+	max-width: 1000px;
+}
+
+.descricao-casa{
+	float: left;
+	width: 40%;
+}
+
+.descricao-casa h2{
+	padding-left: 20px;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.descricao-casa p{
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.info-casa{
+	float: left;
+	width: 60%;
+}
+
+section.casa-detalhes h1{
+	padding: 20px;
+}
+
+.foto-destaque{
+	width: 100%;
+	padding-top: 100%;
+	background:red;
+}
