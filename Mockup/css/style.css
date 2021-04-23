@@ -535,7 +535,7 @@ section.casa-detalhes{
 	padding: 50px;
 	position: relative;
 }
-
+/**Solicitação de cadastro**/
 section.cadastro-sucesso{
 	background:rgb(230,230,230);
 	padding: 60px 2%;
@@ -555,5 +555,67 @@ section.cadastro-sucesso  p{
 
 }
 section.cadastro-sucesso{
-	min-height: 70%;
+	min-height: 40%;
 }
+/**Solicitação de cadastro**/
+
+/**Listar propostas**/
+section.listar-propostas{
+	float: left;
+	margin-left: 370px;
+}
+
+section.listar-propostas{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.listar-propostas  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.listar-propostas  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+section.listar-propostas{
+	min-height: 40%;
+}
+
+.listar-propostas a{
+	margin-left: 150px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+
+/**Listar propostas**/
+
+/**Lista de propostas**/
+
+
+section.lista{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.lista  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.lista{
+	min-height: 60%;
+}
+
+
+
+
+/**Lista de propostas**/
