@@ -659,7 +659,7 @@ section.acesse  h2{
 }
 
 section.acesse{
-	min-height: 60%;
+	min-height: 40%;
 }
 
 section.acesse  p{
@@ -681,5 +681,37 @@ section.acesse  h3{
 	float: left;
 	text-align: center;
 }
-
 /**acesse -  crud**/
+
+/** menu - usuario **/
+
+section.menu-usuario{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.menu-usuario h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.menu-usuario  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+section.menu-usuario{
+	min-height: 40%;
+}
+
+.menu-usuario a{
+	margin-left: 525px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+/** menu - usuario **/
