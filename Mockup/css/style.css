@@ -188,6 +188,7 @@ section.login form{
 section.login{
 	min-height: 70%;
 }
+
 .form-login span{
 	font-size: 16px;
 	color: #212626;
@@ -453,7 +454,7 @@ section.imoveis h2{
 
 section.casa-detalhes .conteiner{
 	padding: 40px 0;
-	max-width: 1000px;
+	max-width: 1100px;
 }
 
 .descricao-casa{
@@ -474,6 +475,11 @@ section.casa-detalhes .conteiner{
 	color: #353535;
 	font-size: 15px;
 	font-style: italic;
+	margin-top: 25px;
+	max-width: 1000px;
+}
+.descricao-casa a{
+	margin-top: 25px;
 }
 
 .info-casa{
@@ -485,12 +491,37 @@ section.casa-detalhes h1{
 	padding: 20px;
 }
 
+section.casa-detalhes{
+	padding: 0 2%;
+}
 .foto-destaque{
-	width: 100%;
-	padding-top: 100%;
-	background:red;
+	margin-left: 150px;
+	width: 80%;
+	padding-top: 80%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
+.nav-galeria{
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.nav-galeria-wraper{
+	width: 200%;
+}
+
+.mini-img{
+	float: left;
+	border:7px solid white;
+	background-position: center;
+	background-size: cover;
+	padding-top: calc(33.33% * (100 / 200) * 0.6); 
+	width: calc(33.33% * (100 / 200));
+}
 
 section.cadastro-sucesso{
 	background:rgb(230,230,230);
