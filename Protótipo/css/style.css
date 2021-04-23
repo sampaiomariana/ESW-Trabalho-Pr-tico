@@ -13,35 +13,705 @@
 	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto; 
-
+	
 }
 html,body{
 	height: 100%
 }
 
 /**header do site**/
+header {
+	background-color: #D6D6D6;
+	padding: 10px 0;
+}
+header {
+	padding: 20px 8%;
+}
+
 header .logo img{
 	float : left;
-	width: 50px;
+	width: 30px;
 }
 
-header nav{
+header nav.menu-desktop{
 	float: right;
 }
-
-header nav ul{
+header nav.menu-desktop ul{
 	list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
 	float: left;
 	font-size: 16px;
 	padding: 0 20px;
 	text-transform: uppercase;
 }
 
-header ul a{
-	text-decoration: none;
+nav .menu-mobile{
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/mobile.jpg');
+	background-size: 100% 100%;
+	display: none;
+	cursor: pointer;
+
 }
+
+nav.menu-mobile ul{
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background-color: white;
+
+}
+
+nav.menu-mobile ul li{
+	padding: 10px 0;
+
+}
+
+header ul a{
+	color: #000000;
+	text-decoration: none;
+
+}
+
 /**header do site**/
 
+section.cover-form{
+	width: 100%;
+	padding: 1px 0%;
+
+}
+
+.container-bg{
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../images/bg-form.jpg');
+}
+
+.center{
+	width: 1100px;
+	margin: 0 auto;
+	
+}
+.container-list{
+	padding: 30px;
+	margin-top: 80px;
+	float:left;
+	width: 619px;
+	height: 270px;
+	background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+
+}
+
+.container-list ul li{
+	margin-top: 18px;
+	color: white;
+
+}
+
+section.servicos .servico-alugar{
+	float: left;
+	width: 50.0%;
+}
+
+.servico-alugar{
+	padding: 20px;
+}
+
+.servico-alugar h2{
+	font-size: 22px;
+	color: #254159;
+}
+
+section.servicos h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.servicos{
+	padding: 100px;
+	background-color:#A9BAC8;
+}
+section.servicos >.container{
+	padding: 100px 0;
+
+}
+.servico-alugar p{
+	padding: 20px 0;
+	font-size: 16px;
+	color: #000000;
+
+}
+
+section.login{
+	background:rgb(230,230,230);
+	padding: 60px 2%;
+}
+
+section.login  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.login-menu{
+	background:rgb(230,230,230);
+	padding: 60px 2%;
+}
+
+section.login-menu  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.login form{
+	width: 100%;
+	margin: 30px auto;
+	max-width: 500px;
+}
+
+section.login{
+	min-height: 70%;
+}
+
+.form-login span{
+	font-size: 16px;
+	color: #212626;
+}
+
+.form-login {
+	float: left;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50 {
+	width: 100%
+}
+.form-wraper {
+	float: left;
+	margin-top: 10px;
+	padding:0 10px;
+	
+}
+
+.form-login input[type= text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35;
+	padding-left: 9px;
+	border: 1px solid #212626;
+	margin-top: 8px;	
+}
+
+.form-wraper input[type= text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35;
+	padding-left: 9px;
+	border: 1px solid #212626;
+	margin-top: 8px;
+
+}
+
+.form-wraper input[type = submit]{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	background:#688293;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+footer .container{
+	max-width: 1100px;
+}
+
+footer{
+	padding:40px 2%;
+	background-color: #658DA6;
+}
+
+footer .footer-block{
+	float:left;
+	width: 33.33%;	
+}
+
+.footer-block h2{
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.footer-block p{
+	color: white;
+	margin-top: 8px;
+	font-size: 14px;
+
+}
+
+.footer-block input{
+	color: #000000;
+}
+
+
+section.copyright >.container{
+	padding: 100px 0;
+	background-color: #101626;
+	
+}
+
+section.copyright h4{
+	padding: 30px;
+	color: white;
+	text-align: center;
+	background-color: #101626;
+}
+
+section.sobre {
+	padding: 20px;
+	position: relative;
+}
+
+section.sobre h2{
+	text-align: center;
+}
+section.sobre .sobre-nos{
+	padding: 20px;
+	padding: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+section.sobre{
+	min-height: 70%;
+}
+
+
+section.imoveis{
+	padding: 90px 2%;
+	min-height: 80%;
+}
+
+section.imoveis h2{
+	padding-top: 0 20px;
+	text-align: center;
+}
+
+.sidebar{
+	float:left;
+	width: 30%;
+}
+
+.content-imoveis{
+	margin-top: 40px;
+	}
+
+.search1{
+	width: 200px;
+}
+
+.search1 h2{
+	font-size: 18px;
+	color: black;
+	font-weight: normal;
+
+}
+
+.search1 .barra-preco{
+
+	width: 100%;
+	height: 20px;
+	background:white;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 30%;
+	height: 20px;
+	border-radius: 20px;
+	background:linear-gradient(to bottom, rgb(255,255,255), rgb(200,200,200));
+}
+
+.pointer-barra{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	left: calc(30% - 13px);
+	cursor: pointer;
+	top:-3px;
+	border-radius: 8px;
+	background:linear-gradient(to bottom, rgb(255,255,255), rgb(180,180,180));
+	border: 1px solid #444;
+}
+
+.valor{
+	margin-top: 8px;
+}
+
+.valor p{
+	color: black;
+	font-size: 14px;
+
+}
+.valor p:nth-of-type(1){
+	float: left;
+}
+
+.valor p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	width: 40px;
+}
+
+.search2{
+	margin-top: 10px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.vitrine-imoveis{
+	float: left;
+	width: 20%;
+	text-align: left;
+	margin-top: 20px;
+	
+}
+
+.vitrine-imoveis .casa-img{
+	width: 100%;
+	padding-top: 100%;
+	border:8px solid white;
+	background-size: 100% 100%;
+}
+
+.vitrine-imoveis h2{
+	padding-left: 8px;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.vitrine-imoveis p{
+	padding-top: 8px;
+	padding-left: 8px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.btn1{
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	background-color: #EB2D2D;
+	text-decoration: none;
+	border-bottom: 5px solid #B21E1E;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+.vitrine-imoveis a{
+	margin-left: 8px;
+	margin-top:10px;
+}
+
+section.casa-detalhes .conteiner{
+	padding: 40px 0;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.descricao-casa{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+}
+
+.descricao-casa h2{
+	padding-left: 20px;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.descricao-casa p{
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 25px;
+	max-width: 1280px;
+
+}
+.descricao-casa a{
+	margin-top: 25px;
+}
+
+.info-casa{
+	float: left;
+	display: inline-block;
+	width: 60%;
+}
+
+section.casa-detalhes h1{
+	padding: 20px;
+}
+
+section.casa-detalhes{
+	padding: 0 2%;
+}
+.foto-destaque{
+	margin-left: 150px;
+	width: 80%;
+	padding-top: 80%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.nav-galeria{
+	width: 100%;
+	margin-top: 15px;
+	overflow: scroll;
+	padding: 15px;
+}
+
+.nav-galeria-wraper{
+	width: 200%;
+}
+
+.mini-img{
+	cursor: pointer;
+	float: left;
+	border:7px solid white;
+	background-position: center;
+	background-size: cover;
+	padding-top: calc(33.33% * (100 / 200) * 0.6); 
+	width: calc(33.33% * (100 / 200));
+}
+.nav-galeria-parent{
+	width: 100%;
+	padding: 50px;
+	position: relative;
+}
+/**Solicitação de cadastro**/
+section.cadastro-sucesso{
+	background:rgb(230,230,230);
+	padding: 60px 2%;
+}
+
+section.cadastro-sucesso  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.cadastro-sucesso  p{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+section.cadastro-sucesso{
+	min-height: 40%;
+}
+/**Solicitação de cadastro**/
+
+/**Listar propostas**/
+section.listar-propostas{
+	float: left;
+	margin-left: 370px;
+}
+
+section.listar-propostas{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.listar-propostas  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section.listar-propostas  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+section.listar-propostas{
+	min-height: 40%;
+}
+
+.listar-propostas a{
+	margin-left: 150px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+
+/**Listar propostas**/
+
+/**Lista de propostas**/
+
+
+section.lista{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.lista  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.lista{
+	min-height: 60%;
+}
+/**Lista de propostas**/
+
+/**Read proposta**/
+
+section.read-proposta{
+	min-height: 60%;
+}
+
+section.read-proposta h2{
+	padding: 20px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.read-proposta  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+.foto-anuncio{
+	margin-left: 150px;
+	width: 50%;
+	padding-top: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/**Read proposta**/
+
+/**acesse -  crud**/
+
+section.acesse{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.acesse  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.acesse{
+	min-height: 40%;
+}
+
+section.acesse  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.acesse  h3{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+.crud a{
+	margin-left: 525px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+/**acesse -  crud**/
+
+/** menu - usuario **/
+
+section.menu-usuario{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.menu-usuario h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.menu-usuario  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+section.menu-usuario{
+	min-height: 40%;
+}
+
+.menu-usuario a{
+	margin-left: 525px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+/** menu - usuario **/
