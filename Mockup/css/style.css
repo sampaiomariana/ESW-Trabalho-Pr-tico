@@ -179,9 +179,6 @@ section.login-menu  h2{
 
 }
 
-
-
-
 section.login form{
 	width: 100%;
 	margin: 30px auto;
@@ -196,12 +193,10 @@ section.login{
 	color: #212626;
 }
 
-
 .form-login {
 	float: left;
 	margin-top: 10px;
 	padding: 0 10px;
-
 }
 
 .w100{
@@ -380,7 +375,6 @@ section.imoveis h2{
 
 .valor{
 	margin-top: 8px;
-
 }
 
 .valor p{
@@ -455,7 +449,6 @@ section.imoveis h2{
 .vitrine-imoveis a{
 	margin-left: 8px;
 	margin-top:10px;
-
 }
 
 section.casa-detalhes .conteiner{
@@ -518,5 +511,6 @@ section.cadastro-sucesso  p{
 
 }
 section.cadastro-sucesso{
-	min-height: 30%;
+	min-height: 70%;
 }
+
