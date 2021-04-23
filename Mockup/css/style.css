@@ -614,8 +614,37 @@ section.lista  h2{
 section.lista{
 	min-height: 60%;
 }
-
-
-
-
 /**Lista de propostas**/
+
+/**Read proposta**/
+
+section.read-proposta{
+	min-height: 60%;
+}
+
+section.read-proposta h2{
+	padding: 20px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.read-proposta  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+.foto-anuncio{
+	margin-left: 150px;
+	width: 50%;
+	padding-top: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/**Read proposta**/
