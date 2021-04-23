@@ -528,8 +528,6 @@ section.casa-detalhes{
 	padding-top: calc(33.33% * (100 / 200) * 0.6); 
 	width: calc(33.33% * (100 / 200));
 }
-
-
 .nav-galeria-parent{
 	width: 100%;
 	padding: 50px;
@@ -645,6 +643,43 @@ section.read-proposta  p{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-
 /**Read proposta**/
+
+/**acesse -  crud**/
+
+section.acesse{
+	background:white;
+	padding: 60px 2%;
+}
+
+section.acesse  h2{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.acesse{
+	min-height: 60%;
+}
+
+section.acesse  p{
+	padding: 10px;
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.acesse  h3{
+	color: #254159;
+	text-align: center;
+	font-size: 18px;
+}
+
+.crud a{
+	margin-left: 525px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+}
+
+/**acesse -  crud**/
