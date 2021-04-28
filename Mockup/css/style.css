@@ -676,7 +676,7 @@ section.acesse  h3{
 }
 
 .crud a{
-	margin-left: 525px;
+	margin-left: 550px;
 	margin-top: 25px;
 	float: left;
 	text-align: center;
@@ -705,11 +705,11 @@ section.menu-usuario  p{
 
 
 section.menu-usuario{
-	min-height: 40%;
+	min-height: 60%;
 }
 
 .menu-usuario a{
-	margin-left: 525px;
+	margin-left: 550px;
 	margin-top: 25px;
 	float: left;
 	text-align: center;
