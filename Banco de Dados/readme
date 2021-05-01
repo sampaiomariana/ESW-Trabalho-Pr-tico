@@ -1,0 +1,11 @@
+O Modelo de entidade elacionamento foi pensado para que se tenha a estrutura básica para montar o Banco de Dados do sistema.
+Sendo assim, foi pensado nas principais entidades que devem ter o sistema e quais atributos são necessários entre eles. Por isso, foram estruturadas quatro entidades. 
+A primeira a entidade de cadastro, pois para ter acesso as demais o usuário precisa ter cadastro no sistema e com dados fornecidos nesse cadastro ele pode fazer a sua autenticação. A entidade imóvel corresponde aos dados que devem ser cadastrados no sistema pelo usuário(proprietário). Já a entidade cadastrar proposta pode ser feita pelo usuário(inquilino) e para isso o usuário deve estar autenticado no sistema. 
+Nos relacionamentos foi estruturada a ligação 1:1 na relação entre Cadastro-Autenticação, 1:N na relação Autenticação-Imóvel e 1:N na relação Autenticação-CadastrarProposta.
+
+Para abrir o modelo montado no DBSQlite, foi salvo o projeto com a extensão .sqbpro.
+Basta abrir o DBSQlite e selecionar Abrir projeto, e selecionar o arquivo BancoDeDados-ProjetoFinal.sqbpro.
+
+Para abrir o modelo em sql, foi salvo como DBSqlite-ProjetoFinal, abrir com editor de texto.
+
+O modelo MySQL-ProjetoFinal foi feito no MySQLWorkbench, nele também foi feito o Modelo de entidade relacionamento do Banco de Dados, que foi apresentado em png no diretório.
